@@ -1,0 +1,14 @@
+  server:
+     host: "localhost"      # 服务器主机
+     port: 8087             # 服务器端口
+     timeout: 30s           # 超时时间
+
+  database:
+     host: "localhost"      # 数据库主机
+     port: 5432             # 数据库端口
+     user: "admin"          # 数据库用户
+     password: "secret"     # 数据库密码
+
+  environment:
+    name: "development"    # 环境名称
+    verbose: true          # 详细模式

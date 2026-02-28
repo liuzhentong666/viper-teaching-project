@@ -1,0 +1,6 @@
+   environment:
+     name: "development"
+     verbose: true
+
+   server:
+     port: 3000  # 开发环境使用不同端口

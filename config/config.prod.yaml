@@ -1,0 +1,10 @@
+   environment:
+     name: "production"
+     verbose: false
+
+   server:
+     port: 80    # 生产环境使用80端口
+
+   database:
+     user: "prod_user"
+     password: "prod_secret"
